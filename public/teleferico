@@ -1,0 +1,8 @@
+<?php
+    $capacidade = readline("Qual a capacidade do teleferico? ");
+    $alunos = readline("Qula a quantide de alunos? ");
+
+    $viagens = ceil($alunos/($capacidade-1));
+
+    echo $viagens;
+
